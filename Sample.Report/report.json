@@ -1,0 +1,51 @@
+{
+  "config": "{\"version\":\"5.54\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU05\",\"version\":\"5.54\",\"type\":2}},\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "layoutOptimization": 0,
+  "resourcePackages": [
+    {
+      "resourcePackage": {
+        "disabled": false,
+        "items": [
+          {
+            "name": "CY24SU05",
+            "path": "BaseThemes/CY24SU05.json",
+            "type": 202
+          }
+        ],
+        "name": "SharedResources",
+        "type": 2
+      }
+    }
+  ],
+  "sections": [
+    {
+      "config": "{}",
+      "displayName": "Page 1",
+      "displayOption": 1,
+      "filters": "[]",
+      "height": 720.00,
+      "name": "227aad9980b13e07cb09",
+      "visualContainers": [
+        {
+          "config": "{\"name\":\"10c720a2743e168b67c1\",\"layouts\":[{\"id\":0,\"position\":{\"x\":158.7413781171423,\"y\":52.913792705714094,\"z\":0,\"width\":1033.708736072343,\"height\":279.68719001591734,\"tabOrder\":0}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"HumanResources vEmployee.FirstName\"},{\"queryRef\":\"HumanResources vEmployee.LastName\"},{\"queryRef\":\"HumanResources vEmployee.JobTitle\"},{\"queryRef\":\"HumanResources vEmployee.MiddleName\"},{\"queryRef\":\"HumanResources vEmployee.EmailAddress\"},{\"queryRef\":\"Sum(HumanResources vEmployee.EmailPromotion)\"},{\"queryRef\":\"HumanResources vEmployee.PhoneNumber\"},{\"queryRef\":\"HumanResources vEmployee.City\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"h\",\"Entity\":\"HumanResources vEmployee\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"FirstName\"},\"Name\":\"HumanResources vEmployee.FirstName\",\"NativeReferenceName\":\"FirstName\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"LastName\"},\"Name\":\"HumanResources vEmployee.LastName\",\"NativeReferenceName\":\"LastName\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"JobTitle\"},\"Name\":\"HumanResources vEmployee.JobTitle\",\"NativeReferenceName\":\"JobTitle\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"EmailAddress\"},\"Name\":\"HumanResources vEmployee.EmailAddress\",\"NativeReferenceName\":\"EmailAddress\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"EmailPromotion\"},\"Name\":\"Sum(HumanResources vEmployee.EmailPromotion)\",\"NativeReferenceName\":\"EmailPromotion\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"PhoneNumber\"},\"Name\":\"HumanResources vEmployee.PhoneNumber\",\"NativeReferenceName\":\"PhoneNumber\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"City\"},\"Name\":\"HumanResources vEmployee.City\",\"NativeReferenceName\":\"City\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"MiddleName\"},\"Name\":\"HumanResources vEmployee.MiddleName\",\"NativeReferenceName\":\"MiddleName\"}]},\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 279.69,
+          "width": 1033.71,
+          "x": 158.74,
+          "y": 52.91,
+          "z": 0.00
+        },
+        {
+          "config": "{\"name\":\"128f8aca8093b461c99c\",\"layouts\":[{\"id\":0,\"position\":{\"x\":599.0597245611202,\"y\":359.0578790744885,\"z\":1,\"width\":593.3903896283651,\"height\":300.4747514360193,\"tabOrder\":1}}],\"singleVisual\":{\"visualType\":\"tableEx\",\"projections\":{\"Values\":[{\"queryRef\":\"HumanResources vEmployee.Title\"},{\"queryRef\":\"HumanResources vEmployee.FirstName\"},{\"queryRef\":\"HumanResources vEmployee.LastName\"},{\"queryRef\":\"HumanResources vEmployee.PhoneNumberType\"},{\"queryRef\":\"HumanResources vEmployee.MiddleName\"},{\"queryRef\":\"HumanResources vEmployee.PhoneNumber\"}]},\"prototypeQuery\":{\"Version\":2,\"From\":[{\"Name\":\"h\",\"Entity\":\"HumanResources vEmployee\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"Title\"},\"Name\":\"HumanResources vEmployee.Title\",\"NativeReferenceName\":\"Title\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"FirstName\"},\"Name\":\"HumanResources vEmployee.FirstName\",\"NativeReferenceName\":\"FirstName\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"LastName\"},\"Name\":\"HumanResources vEmployee.LastName\",\"NativeReferenceName\":\"LastName\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"PhoneNumberType\"},\"Name\":\"HumanResources vEmployee.PhoneNumberType\",\"NativeReferenceName\":\"PhoneNumberType\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"MiddleName\"},\"Name\":\"HumanResources vEmployee.MiddleName\",\"NativeReferenceName\":\"MiddleName\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"h\"}},\"Property\":\"PhoneNumber\"},\"Name\":\"HumanResources vEmployee.PhoneNumber\",\"NativeReferenceName\":\"PhoneNumber\"}]},\"autoSelectVisualType\":false,\"drillFilterOtherVisuals\":true}}",
+          "filters": "[]",
+          "height": 300.47,
+          "width": 593.39,
+          "x": 599.06,
+          "y": 359.06,
+          "z": 1.00
+        }
+      ],
+      "width": 1280.00
+    }
+  ]
+}
